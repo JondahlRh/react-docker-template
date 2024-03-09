@@ -2,7 +2,7 @@ services:
   app:
     build: 
       dockerfile: Dockerfile
-    container_name: tb-script-frontend
+    container_name: react-docker-template
     env_file:
       - .env.prod
     ports:

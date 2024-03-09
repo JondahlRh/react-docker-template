@@ -6,6 +6,8 @@
 
 - package.json: "name" propertie
 - index.html: "title" tag
+- docker-compose.yml: "container_name"
+- docker-compose.dev.yml: "container_name"-dev
 
 ## start command
 
