@@ -6,7 +6,7 @@ services:
     env_file:
       - .env.dev
     ports:
-      - "${VITE_EXPOSED_HOST}:${VITE_EXPOSED_PORT}:80"
+      - "${VITE_EXPOSED_HOST}:${VITE_EXPOSED_PORT}:3000"
     volumes:
       - ./src:/app/src
     stdin_open: true
